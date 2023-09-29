@@ -28,5 +28,4 @@ if (vueVersion && vueVersion !== packageVersion) {
       ' to the latest.\n'
   )
 }
-
 module.exports = require('./build')
