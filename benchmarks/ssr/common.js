@@ -19,10 +19,8 @@ function generateGrid (rowCount, columnCount) {
     }
     grid.push(row)
   }
-
   return grid
 }
-
 const gridData = generateGrid(1000, 10)
 
 module.exports = {
